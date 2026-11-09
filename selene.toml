@@ -1,0 +1,7 @@
+std = "roblox"
+
+[lints]
+if_same_then_else = "allow"
+same_line_statement = "deny"
+incorrect_standard_library_use = "deny"
+deprecated = "warn"

@@ -1,0 +1,8 @@
+# Rojo build artifacts
+*.rbxl
+*.rbxlx
+sourcemap.json
+
+# Local tooling
+*.log
+.DS_Store
