@@ -1,0 +1,42 @@
+{
+  "name": "ICARUS",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [0.22, 0.2, 0.18],
+        "OutdoorAmbient": [0.45, 0.4, 0.34],
+        "Brightness": 2.2,
+        "ClockTime": 16.3,
+        "GeographicLatitude": 8,
+        "GlobalShadows": true,
+        "EnvironmentDiffuseScale": 0.45,
+        "EnvironmentSpecularScale": 0.55
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "Gravity": 196.2,
+        "FallenPartsDestroyHeight": -400,
+        "StreamingEnabled": false
+      }
+    }
+  }
+}
